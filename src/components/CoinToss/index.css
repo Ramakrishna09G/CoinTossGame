@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.coin-toss-game-app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 95vh;
+  width: 400px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .coin-toss-game-app-container {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+.coin-toss-game-container {
+  background-color: #ffffff;
+  height: 85%;
+  width: 80%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .coin-toss-game-container {
+    height: 75%;
+    width: 50%;
+    justify-content: center;
+  }
+}
+.main-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 42px;
+  }
+}
+.sub-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .sub-heading {
+    font-size: 25px;
+  }
+}
+.toss-image {
+  height: 170px;
+  width: 170px;
+}
+@media screen and (min-width: 768px) {
+  .toss-image {
+    height: 220px;
+    width: 220px;
+  }
+}
+.toss-count-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .toss-count-container {
+    flex-direction: row;
+    width: 30%;
+  }
+}
+.count-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .count-heading {
+    font-size: 18px;
+    margin-right: 50px;
+  }
+}
+.toss-coin {
+  background-color: #f9d423;
+  color: #e2a139;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 110px;
+  cursor: pointer;
+}
